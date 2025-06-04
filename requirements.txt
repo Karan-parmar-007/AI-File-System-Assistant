@@ -1,0 +1,23 @@
+# Core UI
+streamlit==1.31.0
+
+# AI and Voice Services
+google-generativeai==0.3.2      # For Gemini LLM
+deepgram-sdk==4.1.0            # Speech-to-Text
+elevenlabs==0.2.27             # Text-to-Speech
+livekit==1.0.8               # Real-time voice communication
+
+# Essential Dependencies
+requests==2.31.0               # HTTP requests
+python-dotenv==1.0.0           # Environment variables
+aiohttp==3.9.3                 # Async HTTP (needed for voice services)
+pandas==2.2.0                  # For displaying file data in tables
+
+# Audio Processing (minimal)
+pydub==0.25.1                  # Audio manipulation
+
+# Windows-specific
+pywin32==306                   # For Windows file operations
+
+
+PyAudio==0.2.14
